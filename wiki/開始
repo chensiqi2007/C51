@@ -1,0 +1,80 @@
+# 獲取C51開發軟件Keil
+
+## 第一步 獲得安裝包
+### 訪問 arm keil 官方網址：[ARM Keil](https://www.keil.com/)<br>
+<img width="2542" height="1464" alt="屏幕截图 2025-11-01 134757" src="https://github.com/user-attachments/assets/1e51a6df-0a2d-4cf7-8ee4-85f516bb66fb" />
+<br>
+### 點擊右上角的 Download 按鈕
+### 進入下一頁面后，點擊C51
+<br>
+<img width="656" height="169" alt="屏幕截图 2025-11-01 135120" src="https://github.com/user-attachments/assets/4e24e20e-40cb-43b0-a569-605e1e888ba1" /><br>
+### 按照提示填入信息后，點擊submit，獲得下載鏈接
+
+### 或 直接獲取下載鏈接 [直接下載](https://down.wsyhn.com/23_310597)
+
+## 第二步 安裝Keil
+打開下載完成的安裝包
+
+<h5>建議：將Keil程序安裝在 “C:/Keil_v5” 文件夾中</h5>
+<br>
+<img width="1129" height="753" alt="屏幕截图 2025-11-01 201941" src="https://github.com/user-attachments/assets/b908d685-f317-450e-b723-2ca827cafe45" />
+<br>
+
+### 全部勾選
+<br>
+<img width="1187" height="850" alt="屏幕截图 2025-11-01 202159" src="https://github.com/user-attachments/assets/35e6a9e3-0e0c-4e4e-a3e3-d9faa630136f" />
+<br>
+
+### 軟件圖標及頁面
+<br>
+<img width="1685" height="1064" alt="屏幕截图 2025-11-01 202303" src="https://github.com/user-attachments/assets/b9e402b2-3a15-4d7d-a86b-b24c8c9aee05" />
+<br>
+
+
+# 激活Keil程序
+## 獲取激活器
+直接下載的壓縮包中已包含激活器，為保護正版權益，本文檔中不會給出激活器下載路徑。
+<h4>提示：部分安全軟件可能會報病毒軟件，請不要理會。 Keil5程序必須以管理員模式運行</h4>
+### 打開激活程序，打開Keil5，選擇左上角File，選擇License Manager
+<br>
+<img width="1428" height="956" alt="屏幕截图 2025-11-01 203504" src="https://github.com/user-attachments/assets/2421f1a5-8261-4647-bad2-31e507a9e414" />
+<br>
+### 複製你的CID，粘貼入注冊機中
+選擇如圖：
+<br>
+<img width="745" height="912" alt="屏幕截图 2025-11-01 203623" src="https://github.com/user-attachments/assets/1c8440bc-0bb0-4f02-973c-f2220bd550f5" />
+<br>
+### 點擊Generate，獲得激活碼，并激活程序
+<br>
+<img width="1254" height="957" alt="屏幕截图 2025-11-01 203759" src="https://github.com/user-attachments/assets/57028305-3487-4d59-b2e1-3f3aeb18a7b2" />
+<br>
+不用理會2020年到期的提示，這并不會影響你正常使用。
+
+# 獲取寫入器
+此處以STC爲例
+## 獲取STC寫入器程序
+### 前往宏晶科技軟件下載網站：
+[宏晶軟件產品網站](https://www.[stcmicro.com.cn/rjxz.html](https://www.stcmicro.com.cn/rjxz.html))
+下載如下軟件：
+<br>
+<img width="1273" height="72" alt="屏幕截图 2025-11-01 204513" src="https://github.com/user-attachments/assets/60d99298-6881-4ab4-8b69-3f86a8614834" />
+<br>
+<img width="1304" height="69" alt="屏幕截图 2025-11-01 204518" src="https://github.com/user-attachments/assets/1696d809-f6b7-4b5b-9769-d99b3a055751" />
+<br>
+## 安裝驅動程序
+### 安裝燒錄器
+<img width="1230" height="746" alt="屏幕截图 2025-11-01 204744" src="https://github.com/user-attachments/assets/7fbbbe52-4bd9-40bd-9d8e-aaf764d4ee4b" />
+<br>
+嵌入成功后，關閉即可。
+### 安裝仿真及編譯器
+打開Aicube-isp
+找到Keil ICE Setting
+<br>
+<img width="1400" height="972" alt="屏幕截图 2025-11-01 205320" src="https://github.com/user-attachments/assets/3964d0e0-8cbb-4bbc-b651-a639e5f5ab64" />
+<br>
+在 “MCU Type” 中選擇你的單片機所配備的芯片組
+點擊上方 “Add MCU type to Keil Add ICE drive to Keil” 
+在彈出窗口中選擇 “C:/Keil_v5” 并點擊 ok ，以完成頭文件的寫入。
+
+
+
